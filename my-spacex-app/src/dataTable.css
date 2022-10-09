@@ -1,0 +1,71 @@
+#datatable-wrapper {
+  padding: 50px 0;
+}
+
+#search-input {
+  margin: 10px;
+  padding-left: 5px;
+  color: #005288;
+}
+
+.fetch-message {
+  padding-top: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  color: #005288;
+}
+
+table {
+  width: 80vw;
+  margin-top: 50px;
+  border: 1px solid grey;
+}
+
+table th {
+  border-right: 1px solid grey;
+}
+
+table th:nth-child(4) {
+  border-right: none;
+}
+
+table td {
+  width: auto;
+  padding: 10px 5px;
+  border: 1px solid grey;
+  border-left: none;
+  border-bottom: none;
+}
+
+table tr td:nth-child(4) {
+  border-right: none;
+}
+
+.th-head {
+  padding: 5px 10px;
+}
+
+.th-head-titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #005288;
+}
+
+.arrowIcon:hover {
+  cursor: pointer;
+}
+
+.active-tab-rotate {
+  transform: rotate(180deg);
+}
+
+.loading-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.tg-row {
+  text-align: center;
+}

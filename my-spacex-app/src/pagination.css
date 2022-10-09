@@ -1,0 +1,27 @@
+.pagination-nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.page-number {
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 50%;
+  margin: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.page-number:hover {
+  cursor: pointer;
+}
+
+.active-page-number {
+  background-color: #6289a3;
+}
